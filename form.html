@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <link>
+
+<head></head>
+<link>
+
 </html>
 
 <body>
-<h1>Pool size & Cost</h1>
-
-<div class="label">
-    <label id="length-label" for="length">Length</label>
-</div>
-
+    <h1>Pool size & Cost</h1>
+    <form>
+        <div class="leftTab">
+            <div class="label">
+                <label id="lengthlbl" for="length">Pool Length</label>
+            </div>
+        </div>
+        <div class="rightTab">
+            <input type="number" name="length" id="txtLength" class="input-field" placeholder="Length"> m
+        </div>
+        <div class="leftTab">
+            <div class="label">
+                <label id="widthlbl" for="width">Pool Width</label>
+            </div>
+        </div>
+        <div class="rightTab">
+            <input type="number" name="width" id="txtWidth" class="input-field" placeholder="Width"> m
+        </div>
+        <div class="leftTab">
+            <div class="label">
+                <label id="depthlbl" for="depth">Average Depth</label>
+            </div>
+        </div>
+        <div class="rightTab">
+            <input type="number" name="depth" id="txtAvgDepth" class="input-field" placeholder="Avg. Depth"> m
+        </div>
+        <div class="Button">
+            <button id="Cal_btn" type="submit">Calculate</button>
+        </div>
+    </form>
+        <div class="leftTab">
+            <div class="label">
+                <label id="surfacelbl" for="surface">Surface Area</label>
+            </div>
+        </div>
+        <div class="txtbox">
+            <input type="number" name="surface" id="txtSurfaceAre" readonly>
+        </div>
 </body>
